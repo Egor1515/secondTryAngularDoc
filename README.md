@@ -1,5 +1,6 @@
 # SecondTryAngular
 
+## Урок 1
 1. Перейдя в src/ мы увидим несколько файлов
     - index.html - Это шаблон верхнего уровня
     - style.css - Это таблица стилей верхнего уровня
@@ -18,6 +19,13 @@
 
 - tsconfig.* — это файлы, описывающие конфигурацию приложения для компилятора TypeScript.
 
+## Урок 2
+
+1. Здесь нам понадобится создать новый компонент `Home` и сгенерировать его можно используя команду
+`ng generate component home --standalont --inline-template`
+2. Далее мы сгенерив этот компонент должны его импортировать в главный эпп компонент, чтобы потом добавить селектор <app-home> внутри app.component
+3. Потом создаем html файл для нового компонента и туда вставляем код нужный нам, после чего в его же ТС файле делаем ссылку на styleUrls:['/']
+4. Добавляем стили в этот файл и все готово
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
