@@ -36,13 +36,16 @@
 
 # Урок 4
 1. Создаем тестовый дома для нашего приложения и пока мы их просто захардкодим внутри массива с объектами, а потом научимся их получить через реальный сервер
-## Code scaffolding
 2. Далее внутри home.component импортируем этот интерфейс, чтобы мы могли создать экземпляр этого типа.
 3. В экспортируемом оттуда классе создаем объект с тестовыми данным
 `housingLocation: HousingLocation ={
     data: data,
     data: data ...
 }``
+# Урок 5
+1. Добавление входного параметра в компонент
+
+## Code scaffolding
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
 ## Build
