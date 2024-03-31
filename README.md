@@ -28,7 +28,12 @@
 4. Добавляем стили в этот файл и все готово
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Урок 3
+1. Нам нужен новый компонент, который будет отвечать за расположение домов, их адреса и доп инфо
+2. Используя уже известную команду `ng generate component` создаем его
+3. Передаем его в родительский компонент созданный в прошлый раз home.component и теперь после иморта мы можем его использовать внутри home.component
+4. В отдельном файле для верстки этого компонента создаем разметку и добавляем ссылку на нее внутри .ts
+5. 
 
 ## Code scaffolding
 
