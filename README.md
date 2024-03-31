@@ -33,10 +33,16 @@
 2. Используя уже известную команду `ng generate component` создаем его
 3. Передаем его в родительский компонент созданный в прошлый раз home.component и теперь после иморта мы можем его использовать внутри home.component
 4. В отдельном файле для верстки этого компонента создаем разметку и добавляем ссылку на нее внутри .ts
-5. 
 
+# Урок 4
+1. Создаем тестовый дома для нашего приложения и пока мы их просто захардкодим внутри массива с объектами, а потом научимся их получить через реальный сервер
 ## Code scaffolding
-
+2. Далее внутри home.component импортируем этот интерфейс, чтобы мы могли создать экземпляр этого типа.
+3. В экспортируемом оттуда классе создаем объект с тестовыми данным
+`housingLocation: HousingLocation ={
+    data: data,
+    data: data ...
+}``
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
 ## Build
